@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/",
+      "handler": "activity-log.index",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/apilogs",
+      "handler": "apilog.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/apilogs/:id",
+      "handler": "apilog.findOne",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

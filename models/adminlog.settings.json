@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "adminlogs",
+  "info": {
+    "name": "adminlog"
+  },
+  "options": {
+    "timestamps": true,
+    "increments": true,
+    "comment": ""
+  },
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "userid": {
+      "type": "uid"
+    },
+    "ip": {
+      "type": "string"
+    },
+    "method": {
+      "type": "string"
+    },
+    "route": {
+      "type": "string"
+    },
+    "params": {
+      "type": "json"
+    },
+    "query": {
+      "type": "json"
+    },
+    "body": {
+      "type": "json",
+      "private": true
+    }
+  }
+}

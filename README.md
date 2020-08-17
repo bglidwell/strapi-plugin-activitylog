@@ -1,2 +1,3 @@
-# strapi-plugin-activitylog
- Activity Log for Strapi
+# Strapi plugin ActivityLog
+
+A quick description of ActivityLog.
