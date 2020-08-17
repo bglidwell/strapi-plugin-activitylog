@@ -7,25 +7,25 @@
 
 module.exports = {
 	find(params, populate) {
-    return strapi.query('apilog', 'activity-log').find(params, populate);
+    return strapi.query('apilog', 'activitylog').find(params, populate);
 	},
 
 	findOne(params, populate) {
-    return strapi.query('apilog', 'activity-log').findOne(params, populate);
+    return strapi.query('apilog', 'activitylog').findOne(params, populate);
 	},
 
 	count(params) {
-    return strapi.query('apilog', 'activity-log').count(params);
+    return strapi.query('apilog', 'activitylog').count(params);
 	},
 	
 	async create(data, { files } = {}) {
-    const entry = await strapi.query('apilog', 'activity-log').create(data);
+    const entry = await strapi.query('apilog', 'activitylog').create(data);
 
 		return this.findOne({ id: entry.id });
 
 	},
 	
 	delete(params) {
-    return strapi.query('apilog', 'activity-log').delete(params);
+    return strapi.query('apilog', 'activitylog').delete(params);
   },
 };

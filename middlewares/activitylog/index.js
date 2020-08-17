@@ -24,11 +24,11 @@ module.exports = (strapi) => {
 					if(entry.adminActivity) {
 						//Send to admin activityLog
 						if(config.adminlogconsole && config.adminlogconsole.includes(entry.method)) strapi.log.info('ADMIN: ' + JSON.stringify(entry, removePasswords))
-						if(config.adminlogdb && config.adminlogdb.includes(entry.method)) await strapi.plugins['activity-log'].services['adminlog'].create(entry)
+						if(config.adminlogdb && config.adminlogdb.includes(entry.method)) await strapi.plugins['activitylog'].services['adminlog'].create(entry)
 					} else { 
 						//Send to API activityLog
 						if(config.apilogconsole && config.apilogconsole.includes(entry.method)) strapi.log.info('API: ' + JSON.stringify(entry, removePasswords))
-						if(config.apilogdb && config.apilogdb.includes(entry.method)) await strapi.plugins['activity-log'].services['apilog'].create(entry)
+						if(config.apilogdb && config.apilogdb.includes(entry.method)) await strapi.plugins['activitylog'].services['apilog'].create(entry)
 					}
 				}
 

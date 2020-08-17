@@ -3,7 +3,7 @@
     {
       "method": "GET",
       "path": "/",
-      "handler": "activity-log.index",
+      "handler": "activitylog.index",
       "config": {
         "policies": []
       }

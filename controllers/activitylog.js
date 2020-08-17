@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * activity-log.js controller
+ * activitylog.js controller
  *
- * @description: A set of functions called "actions" of the `activity-log` plugin.
+ * @description: A set of functions called "actions" of the `activitylog` plugin.
  */
 
 module.exports = {
