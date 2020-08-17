@@ -1,22 +1,22 @@
 {
   "name": "strapi-plugin-activitylog",
   "version": "0.0.0",
-  "description": "This is the description of the plugin.",
+  "description": "Plugin for tracking activity in both admin and API context.",
   "strapi": {
     "name": "activitylog",
     "icon": "plug",
-    "description": "Description of activitylog plugin."
+    "description": "Plugin for tracking activity in both admin and API context."
   },
   "dependencies": {},
   "author": {
-    "name": "A Strapi developer",
-    "email": "",
+    "name": "Bobby Glidwell",
+    "email": "sintex+strapi@gmail.com",
     "url": ""
   },
   "maintainers": [
     {
-      "name": "A Strapi developer",
-      "email": "",
+      "name": "Bobby Glidwell",
+      "email": "sintex+strapi@gmail.com",
       "url": ""
     }
   ],
