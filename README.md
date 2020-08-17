@@ -1,3 +1,3 @@
-# Strapi plugin ActivityLog
+# Strapi plugin activitylog
 
-A quick description of ActivityLog.
+A quick description of activitylog.

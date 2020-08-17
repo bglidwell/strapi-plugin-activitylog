@@ -1,11 +1,11 @@
 {
-  "name": "strapi-plugin-ActivityLog",
+  "name": "strapi-plugin-activitylog",
   "version": "0.0.0",
   "description": "This is the description of the plugin.",
   "strapi": {
-    "name": "ActivityLog",
+    "name": "activitylog",
     "icon": "plug",
-    "description": "Description of ActivityLog plugin."
+    "description": "Description of activitylog plugin."
   },
   "dependencies": {},
   "author": {
