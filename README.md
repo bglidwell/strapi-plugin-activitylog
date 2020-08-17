@@ -5,6 +5,7 @@ This plugin allows you to log activity (currently filtered by REST Method) perfo
 Two new content-types will appear named APILog and AdminLog respectively, and will capture incoming information. 
 
 ## Available settings (config/middleware.js)
+ ```
  settings: {
     activitylog: {
 			enabled: true,                  // enable/disable plugin
@@ -14,3 +15,4 @@ Two new content-types will appear named APILog and AdminLog respectively, and wi
 			apilogconsole: [],              // REST Methods to log to info (API routes)
     }
   }
+```
