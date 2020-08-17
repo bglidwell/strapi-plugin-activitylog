@@ -16,3 +16,9 @@ Two new content-types will appear named APILog and AdminLog respectively, and wi
     }
   }
 ```
+
+### TODO:
+- Route filter options
+- log rotation / limits
+- log alerts
+- Tag/configure type of data to store
