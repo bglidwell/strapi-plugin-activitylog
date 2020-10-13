@@ -1,11 +1,11 @@
 {
   "name": "strapi-plugin-activitylog",
-  "version": "0.0.2",
-  "description": "Plugin for tracking activity in both admin and API context.",
+  "version": "1.0.0",
+  "description": "Log activity inside your strapi application",
   "strapi": {
-    "name": "activitylog",
+    "name": "Activity Log",
     "icon": "plug",
-    "description": "Plugin for tracking activity in both admin and API context."
+    "description": "Log activity inside your strapi application"
   },
   "dependencies": {},
   "author": {
