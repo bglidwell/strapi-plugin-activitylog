@@ -1,18 +1,20 @@
 # Strapi plugin ActivityLog
 
 ```
-npm install strapi-plugin-activitylog
+yarn add strapi-plugin-activitylog
+yarn build
+yarn develop
 ```
 
 **Settings**
-- ./config/middlewares.js
+- ./config/middleware.js
 ```
 settings: {
 	activitylog: {
 		enabled: true,
-		adminlogdb: ['DELETE'], // Array of methods to log to database for admin panel activity
+		adminlogdb: ["DELETE", "PUT", "POST"], // Array of methods to log to database for admin panel activity
 		adminlogconsole: null, // Array of methods to log to console for admin panel activity
-		apilogdb: ['DELETE'], // Array of methods to log to database for api activity
+		apilogdb: ["DELETE", "PUT", "POST"], // Array of methods to log to database for api activity
 		apilogconsole: null // Array of methods to log to console for api activity
 	}
 }
